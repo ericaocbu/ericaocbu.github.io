@@ -340,6 +340,10 @@ footer {
     line-height: 1.5; /* Add line-height for readability */
 }
 
+#classes p {
+    opacity: 0;
+    transform: translateY(20px);
+}
 
 /* color palette: https://coolors.co/d8dcff-aeadf0-51355a-2a0c4e  
 other external resource (i used this whole website tbh): https://www.w3schools.com/html/html_layout.asp 

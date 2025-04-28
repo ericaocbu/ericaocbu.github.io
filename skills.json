@@ -1,0 +1,62 @@
+[
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/512/html-5.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/fluent/512/css3.png"
+    },
+    {
+        "name": "TailwindCSS",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDML5CFq70Y9FJ52YnyCjfdyUA3g9B6is_jA&s"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+    },
+    {
+        "name": "Figma",
+        "icon": "image/62c6bc25eee9410fe137d91f.png"
+    },
+    {
+        "name": "ReactJS",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHR_P-7OxbDx2-EpUFbKc24Ee2jKJYms_gUw&s"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJbZnC5drwG8xBczuFg005-nD9KfJoN8idw&s"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/512/java-coffee-cup-logo.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://pngimg.com/uploads/mysql/small/mysql_PNG23.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://images.seeklogo.com/logo-png/29/2/wordpress-icon-logo-png_seeklogo-299143.png"
+    },
+    {
+        "name": "Canva",
+        "icon": "https://styles.redditmedia.com/t5_112at2/styles/communityIcon_zs0h9ze7ud5a1.jpg?format=pjpg&s=dbe0c4b2d3cc963229ace9e7232e238f19641694"
+    },
+    {
+        "name": "Microsoft Office",
+        "icon": "https://images.icon-icons.com/1156/PNG/512/1486565573-microsoft-office_81557.png"
+    },
+    {
+        "name": "Adobe Creative Cloud",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/1200px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
+    }
+]

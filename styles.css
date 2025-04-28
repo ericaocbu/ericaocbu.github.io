@@ -1,0 +1,346 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #c1dafd;
+}
+
+nav {
+    width: 100%;
+    background-color: #a2c6f8;
+    border-bottom: 2px solid #274c81;
+    position: fixed;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.navigation div {
+    margin: 10px;
+}
+
+.navigation a {
+    color: #274c81;
+    font-family: "Dosis", serif;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s, color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #5c8acb;
+    color: white;
+}
+
+.typing-text {
+    color: #274c81;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #274c81;
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 80px;
+}
+
+.button {
+    text-align: center;
+    background-color: white;
+    border: 2px solid #274c81;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    font-family: "Quicksand", serif;
+}
+
+img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+figure {
+    display: flex;
+    justify-items: center;
+}
+
+.design {
+    justify-items: center;
+    background-color: white;
+}
+
+.button img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.button:hover img {
+    transform: scale(1.1);
+}
+
+.project .button {
+    background: none;
+    border: none;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+}
+
+.project-info .button {
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    background-color: white;
+}
+
+.project-info {
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+    font-family: "Quicksand", serif;
+}
+
+h2 {
+    flex: 1;
+    text-align: center;
+    font-family: "Dosis", serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+section div {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 2px solid #274c81;
+    border-radius: 10px;
+}
+
+/* Grid layout for the images */
+.graphic-design-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive 2-column layout */
+    gap: 20px; /* Spacing between images */
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Styling for each image container */
+.graphic-design-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for images */
+.graphic-design-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    justify-self: center;
+}
+
+/* Caption styling */
+.graphic-design-item figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: "Quicksand", serif;
+}
+
+footer {
+    margin-top: auto; /* instead of margin-top: 20px */
+    width: 100%;
+    text-align: center;
+    border: 2px solid #274c81;
+    background-color: #a2c6f8;
+    padding: 20px;
+}
+
+/* skills section */
+.skill .container {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;  /* Ensures the skills container doesn't stretch too wide */
+    margin: auto;
+    box-sizing: border-box;  /* To include padding and borders in the width calculation */
+}
+
+.skill .container .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Auto-adjust columns based on screen size */
+    gap: 1rem;
+    width: 100%;  /* Ensure it stays within the container */
+    box-sizing: border-box;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item:hover {
+    box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8);
+}
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 1.2rem;
+    font-family: "Quicksand", serif;
+}
+
+/* end skills section */
+
+/* education section starts */
+.education {
+    width: 100%;
+    height: 100%;
+    display: flex; /* Use flexbox to align the box horizontally */
+    justify-content: center; /* Center the content */
+    align-items: center; /* Center the content vertically */
+    border: 2px solid #274c81;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensures padding is included in width/height calculations */
+}
+
+.education .box {
+    display: flex;
+    flex-direction: row; /* Ensure image and content are side by side */
+    width: 80%; /* Limit the width */
+    max-width: 1000px; /* Set max width for larger screens */
+    height: auto; /* Allow content to determine height */
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    text-align: left; /* Align text to the left */
+    overflow: visible;
+    background: rgb(252, 252, 252);
+    align-items: center; /* Vertically center content */
+}
+
+.education .box:hover {
+    box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8);
+}
+
+.education .box .image {
+    flex: 1 1 20rem;
+    width: 100%;
+    height: 100%;
+}
+
+.education .box img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    justify-items: center; /* Center the content */
+    align-self: center;
+    margin: auto;
+}
+
+.education .box .content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex: 1 1 70rem;
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+    margin: 1rem;
+}
+
+.education .box .content h3,
+.education .box .content h4 {
+    margin: 0;
+    font-family: "Quicksand", serif;
+    color: #51355a;
+}
+
+.education .box .content p {
+    font-family: "Quicksand", serif;
+    color: #2a0c4e;
+    margin: 0.5rem 0;
+    text-align: left;
+    line-height: 1.5; /* Add line-height for readability */
+}
+
+
+/* color palette: https://coolors.co/d8dcff-aeadf0-51355a-2a0c4e  
+other external resource (i used this whole website tbh): https://www.w3schools.com/html/html_layout.asp 
+*/

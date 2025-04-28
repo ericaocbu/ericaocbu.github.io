@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="about"><a href="#about">About</a></div>
+            <div class="edu"><a href="#education">Education</a></div>
+            <div class="skills"><a href="#skills">Skills</a></div>
+            <div class="contact"><a href="#contact">Contact</a></div>
+            <div class="projects"><a href="projects.html">Projects</a></div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="container">
+            <h1>Hi!👋🏽 I'm Erica Ocbu</h1>
+            <h2>I am into <span class="typing-text"></span></h2>
+            <p>I'm currently a junior at the University of North Carolina at Chapel Hill! I'm currently working as an RA (Resident Advisor) on-campus in Kenan Community. Check out my LinkedIn below!</p>
+            <a href="https://www.linkedin.com/in/erica-ocbu-157a51237/" class="button">Linkedin</a>
+        </div>
+        <img src="image/headshot.JPG" alt="headshot picture">
+    </header>
+
+    <section>
+        <!-- about section starts -->
+            <div id="about">
+                <h2>About</h2>
+                <p>I'm double majoring in Computer Science and Information Science and minoring in Data Science. I'm interested in UI/UX design and Health Technology (Health Informatics)! Outside of academics, my hobbies include working on front-end development projects, such as designing websites or apps. I also enjoy traveling to new places and trying new foods!</p>
+            </div>
+
+        <!-- education section starts -->
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="box">
+                <side class="image">
+                    <img src="image/unc.avif" alt="unc logo">
+                </side>
+                <side class="content">
+                    <h3>Information Science B.S, Computer Science B.A, Data Science Minor</h3>
+                    <p>University of North Carolina at Chapel Hill | UNC-CH</p>
+                    <h4>2022-2026 | Pursuing</h4>
+                </side>
+            </div> 
+        </section>
+
+        <!-- classes section starts -->
+        <div id="classes">
+            <h2>Relevent Classes/Coursework</h2>
+            <p><i>COMP 126 -</i> Practical Web Design and Development</p>
+            <p><i>COMP 210 -</i> Data Structures and Analysis</p>
+            <p><i>COMP 301 -</i> Foundations of Programming</p>
+            <p><i>COMP 426 -</i> Modern Web Programming</p>
+            <p><i>COMP 590 -</i> Interactive Computer Graphics</p>
+            <p><i>INLS 382 -</i> Information Systems Analysis and Design</p>
+            <p><i>INLS 509 -</i> Information Retrieval</p>
+            <p><i>INLS 523 -</i> Introduction to Database Concepts and Applications</p>
+        </div>
+
+        <!-- skills section starts -->
+        <div class="skill" id="skills">
+            <h2 class="heading">Skills & Abilities</h2>
+            <side class="container">
+                <side class="row" id="skills-container">
+                    <!-- Skills will be loaded here -->
+                </side>
+            </side>
+        </div>
+
+        <div id="contact">
+            <h2>Contact Me!</h2>
+            <p><b>📩 UNC Email:</b> ericao@unc.edu</p>
+            <p><b>📬 Personal Email:</b> erica.janet55@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Made with 🫶🏽 by Erica Ocbu</h3>
+    </footer>
+
+    <script>
+        var typed = new Typed(".typing-text", {
+          strings: ["Web Development", "UI/UX Design", "Health Informatics"], 
+          typeSpeed: 120,
+          backSpeed: 60,
+          backDelay: 1000,
+          loop: true
+        });
+    </script>
+
+    <script>
+        // Fetch skills.json
+        fetch('skills.json')
+          .then(response => response.json())
+          .then(skills => {
+            const container = document.getElementById('skills-container');
+      
+            skills.forEach(skill => {
+              const skillDiv = document.createElement('div');
+              skillDiv.className = 'skill-item';
+      
+              skillDiv.innerHTML = `
+                <img src="${skill.icon}" alt="${skill.name}" class="skill-icon">
+                <p>${skill.name}</p>
+              `;
+      
+              container.appendChild(skillDiv);
+            });
+          })
+          .catch(error => console.error('Error loading skills:', error));
+    </script>
+</body>
+</html>

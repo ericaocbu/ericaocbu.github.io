@@ -62,8 +62,9 @@ header {
 
 .button {
     text-align: center;
-    background-color: white;
-    border: 2px solid #274c81;
+    color: white;
+    background-color: #274c81;
+    border: 2px solid #5c8acb;
     padding: 5px;
     width: 100px;
     border-radius: 10px;

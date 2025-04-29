@@ -24,6 +24,8 @@ A responsive, accessible, and visually organized personal portfolio website to s
 
 ---
 
+## 📬 Thanks For Visiting 🫶🏽
+
 ## 📬 Contact
 
 Email: ericao@unc.edu |

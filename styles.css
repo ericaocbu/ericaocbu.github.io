@@ -13,6 +13,7 @@ nav {
     background-color: #a2c6f8;
     border-bottom: 2px solid #274c81;
     position: fixed;
+    z-index: 1000;
 }
 
 .navigation {
@@ -167,7 +168,7 @@ section {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
     width: 70%;
 }
 
@@ -175,9 +176,74 @@ section div {
     flex: 1;
     padding: 10px;
     margin-bottom: 40px;
-    border: 2px solid #274c81;
-    border-radius: 10px;
+    border-radius: 20px;
 }
+
+.home section div {
+    margin-bottom: 10px;
+}
+
+/* About section */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.quick-facts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.quick-fact-card {
+    background-color: #274c81;
+    color: white;
+    padding: 20px;
+    border-radius: 16px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.quick-fact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.quick-fact-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.quick-fact-card p {
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* classes section */
+#classes p {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.class-chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.class-chip {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #274c81;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
 
 /* Grid layout for the images */
 .graphic-design-grid {
@@ -185,7 +251,7 @@ section div {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive 2-column layout */
     gap: 20px; /* Spacing between images */
     justify-content: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     background-color: white;
 }
@@ -274,7 +340,6 @@ footer {
     display: flex; /* Use flexbox to align the box horizontally */
     justify-content: center; /* Center the content */
     align-items: center; /* Center the content vertically */
-    border: 2px solid #274c81;
     border-radius: 10px;
     margin-bottom: 40px;
     padding: 20px; /* Add padding for better spacing */
@@ -338,11 +403,6 @@ footer {
     margin: 0.5rem 0;
     text-align: left;
     line-height: 1.5; /* Add line-height for readability */
-}
-
-#classes p {
-    opacity: 0;
-    transform: translateY(20px);
 }
 
 /* color palette: https://coolors.co/d8dcff-aeadf0-51355a-2a0c4e  

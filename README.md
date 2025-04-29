@@ -24,7 +24,7 @@ A responsive, accessible, and visually organized personal portfolio website to s
 
 ---
 
-## 📬 Thanks For Visiting 🫶🏽
+## 🫶🏽 Thanks For Visiting!
 
 ## 📬 Contact
 

@@ -32,6 +32,10 @@
         "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJbZnC5drwG8xBczuFg005-nD9KfJoN8idw&s"
     },
     {
+        "name": "Supabase",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfSt0xBDTUkGqyLPvZa5PBHYNVg-WJ2OWPQ&s"
+    },
+    {
         "name": "Java",
         "icon": "https://img.icons8.com/color/512/java-coffee-cup-logo.png"
     },

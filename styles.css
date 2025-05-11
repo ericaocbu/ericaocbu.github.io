@@ -457,6 +457,90 @@ footer {
     line-height: 1.5; /* Add line-height for readability */
 }
 
+
+/********************************************************************/
+/* --- MOBILE RESPONSIVE LAYOUT --- */
+@media (max-width: 768px) {
+    /* Hero section layout */
+    #hero {
+      flex-direction: column-reverse;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    #container {
+      padding: 0 1rem;
+    }
+  
+    #hero-img img {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    /* Quick facts: wrap nicely */
+    .quick-facts-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .quick-fact-card {
+      width: 90%;
+    }
+  
+    /* Education box: vertical stack */
+    .education .box {
+      flex-direction: column;
+      text-align: center;
+      height: 100%;
+      width: 100%;
+      max-height: 300px;
+    }
+  
+    .education .image img {
+      max-width: 150px;
+    }
+  
+    /* Class chips wrap neatly */
+    .class-chips-container {
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    /* Skills section: stacked */
+    #skills .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill-item {
+      width: 80%;
+    }
+  
+    /* Projects: vertical cards */
+    .design {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+    }
+
+    .project {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+      }
+  
+    .project-info {
+      padding: 0 1rem;
+    }
+  
+    /* Footer readability */
+    footer {
+      font-size: 0.9rem;
+      padding: 1rem;
+    }
+  }
+  
+
 /* color palette: https://coolors.co/d8dcff-aeadf0-51355a-2a0c4e  
 other external resource (i used this whole website tbh): https://www.w3schools.com/html/html_layout.asp 
 */

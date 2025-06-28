@@ -8,12 +8,12 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #c1dafd;
+    background-color: white;
 }
 
 nav {
     width: 100%;
-    background-color: #a2c6f8;
+    background-color: white;
     border-bottom: 2px solid #274c81;
     position: fixed;
     z-index: 1000;
@@ -53,7 +53,6 @@ header {
     align-items: center;
     width: 90%;
     height: 100%;
-    border: 2px solid #274c81;
     margin-top: 80px;
     border-radius: 20px;
     padding: 20px;
@@ -66,7 +65,6 @@ header {
     font-weight: 700;
     color: var(--text);
     margin-bottom: 0.5rem;
-    font-family: 'Poppins', sans-serif;
   }
   
   /* Main name */
@@ -248,8 +246,8 @@ section div {
 }
 
 .quick-fact-card {
-    background-color: #274c81;
-    color: white;
+    background-color: white;
+    color: #274c81;
     padding: 20px;
     border-radius: 16px;
     width: 200px;
@@ -336,25 +334,25 @@ footer {
     width: 100%;
     text-align: center;
     border: 2px solid #274c81;
-    background-color: #a2c6f8;
+    background-color: white;
     padding: 20px;
 }
 
 /* skills section */
 .skill .container {
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
-    max-width: 1200px;  /* Ensures the skills container doesn't stretch too wide */
+    max-width: 1200px;
     margin: auto;
-    box-sizing: border-box;  /* To include padding and borders in the width calculation */
+    box-sizing: border-box;
 }
 
 .skill .container .row {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Auto-adjust columns based on screen size */
     gap: 1rem;
-    width: 100%;  /* Ensure it stays within the container */
+    width: 100%;
     box-sizing: border-box;
 }
 

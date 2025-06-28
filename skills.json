@@ -1,78 +1,132 @@
 [
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/512/html-5.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/fluent/512/css3.png"
-    },
-    {
-        "name": "TailwindCSS",
-        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDML5CFq70Y9FJ52YnyCjfdyUA3g9B6is_jA&s"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-    },
-    {
-        "name": "TypeScript",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
-    },
-    {
-        "name": "Figma",
-        "icon": "image/62c6bc25eee9410fe137d91f.png"
-    },
-    {
-        "name": "ReactJS",
-        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHR_P-7OxbDx2-EpUFbKc24Ee2jKJYms_gUw&s"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJbZnC5drwG8xBczuFg005-nD9KfJoN8idw&s"
-    },
-    {
-        "name": "Supabase",
-        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfSt0xBDTUkGqyLPvZa5PBHYNVg-WJ2OWPQ&s"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/512/java-coffee-cup-logo.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://pngimg.com/uploads/mysql/small/mysql_PNG23.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
-    },
-    {
-        "name": "VSCode",
-        "icon": "https://images.icon-icons.com/2107/PNG/512/file_type_vscode_icon_130084.png"
-    },
-    {
-        "name": "Vercel",
-        "icon": "https://www.svgrepo.com/show/354513/vercel-icon.svg"
-    },
-    {
-        "name": "WordPress",
-        "icon": "https://images.seeklogo.com/logo-png/29/2/wordpress-icon-logo-png_seeklogo-299143.png"
-    },
-    {
-        "name": "Canva",
-        "icon": "https://styles.redditmedia.com/t5_112at2/styles/communityIcon_zs0h9ze7ud5a1.jpg?format=pjpg&s=dbe0c4b2d3cc963229ace9e7232e238f19641694"
-    },
-    {
-        "name": "Microsoft Office",
-        "icon": "https://images.icon-icons.com/1156/PNG/512/1486565573-microsoft-office_81557.png"
-    },
-    {
-        "name": "Adobe Creative Cloud",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/1200px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
-    }
-]
+        {
+            "name": "HTML5",
+            "category": "Programming Language",
+            "icon": "https://img.icons8.com/color/512/html-5.png"
+        },
+        {
+            "name": "CSS3",
+            "category": "Programming Language",
+            "icon": "https://img.icons8.com/fluent/512/css3.png"
+        },
+        {
+            "name": "TailwindCSS",
+            "category": "Programming Language",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDML5CFq70Y9FJ52YnyCjfdyUA3g9B6is_jA&s"
+        },
+        {
+            "name": "JavaScript",
+            "category": "Programming Language",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+            "name": "TypeScript",
+            "category": "Programming Language",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+        },
+        {
+            "name": "Figma",
+            "category": "Software and Tools",
+            "icon": "image/62c6bc25eee9410fe137d91f.png"
+        },
+        {
+            "name": "ReactJS",
+            "category": "Programming Language",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHR_P-7OxbDx2-EpUFbKc24Ee2jKJYms_gUw&s"
+        },
+        {
+            "name": "NodeJS",
+            "category": "Programming Language",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJbZnC5drwG8xBczuFg005-nD9KfJoN8idw&s"
+        },
+        {
+            "name": "Supabase",
+            "category": "Software and Tools",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNfSt0xBDTUkGqyLPvZa5PBHYNVg-WJ2OWPQ&s"
+        },
+        {
+            "name": "Java",
+            "category": "Programming Language",
+            "icon": "https://img.icons8.com/color/512/java-coffee-cup-logo.png"
+        },
+        {
+            "name": "Python",
+            "category": "Programming Language",
+            "icon": "https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png"
+        },
+        {
+            "name": "MySQL",
+            "category": "Programming Language",
+            "icon": "https://pngimg.com/uploads/mysql/small/mysql_PNG23.png"
+        },
+        {
+            "name": "GitHub",
+            "category": "Software and Tools",
+            "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        },
+        {
+            "name": "VSCode",
+            "category": "Software and Tools",
+            "icon": "https://images.icon-icons.com/2107/PNG/512/file_type_vscode_icon_130084.png"
+        },
+        {
+            "name": "Vercel",
+            "category": "Software and Tools",
+            "icon": "https://www.svgrepo.com/show/354513/vercel-icon.svg"
+        },
+        {
+            "name": "WordPress",
+            "category": "Software and Tools",
+            "icon": "https://images.seeklogo.com/logo-png/29/2/wordpress-icon-logo-png_seeklogo-299143.png"
+        },
+        {
+            "name": "Canva",
+            "category": "Software and Tools",
+            "icon": "https://styles.redditmedia.com/t5_112at2/styles/communityIcon_zs0h9ze7ud5a1.jpg?format=pjpg&s=dbe0c4b2d3cc963229ace9e7232e238f19641694"
+        },
+        {
+            "name": "Microsoft Office",
+            "category": "Software and Tools",
+            "icon": "https://images.icon-icons.com/1156/PNG/512/1486565573-microsoft-office_81557.png"
+        },
+        {
+            "name": "Adobe Creative Cloud",
+            "category": "Software and Tools",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/1200px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
+        },
+        {
+          "name": "Matplotlib",
+          "category":"Data Analytics",
+          "icon": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/matplotlib-icon-f7mzorjcj05050u32rdqcyy.png/matplotlib-icon-iodufaod59i61pudzd92.png?_a=DATAdtAAZAA0"
+        },
+        {
+          "name": "NumPy",
+          "category": "Data Analytics",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn5o2UmZneaZUdoop6FljZoAatSeOLn68iRw&s"
+        },
+        {
+            "name": "Pandas",
+            "category": "Data Analytics",
+            "icon": "https://cdn.worldvectorlogo.com/logos/pandas.svg"
+        },
+        {
+            "name": "SciPy",
+            "category": "Data Analytics",
+            "icon": "https://images.seeklogo.com/logo-png/44/1/scipy-logo-png_seeklogo-441155.png"
+        },
+        {
+            "name": "Tableau",
+            "category": "Data Analytics",
+            "icon": "https://img.icons8.com/color/512/tableau-software.png"
+        },
+        {
+            "name": "PowerBI",
+            "category": "Data Analytics",
+            "icon": "https://1000logos.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo-2013.png"
+        },
+        {
+            "name": "Jupyter",
+            "category": "Data Analytics",
+            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAADyCAMAAAALHrt7AAAAwFBMVEX////zdyZOTk6enp52dndhYmJCQkLybABFRUU7OzvyawA/Pz9KSkpLS0u9vb3zdiPo6OiWlpb29vbzchi1tbXa2trv7+/IyMjzcBH5+fnPz89paWqVlZXzcxz+8+7++PTCwsKnp6eDg4NUVFTW1tb6ybH84tX97eT5wKT2oHKJiYn4uJj85Nj70r772choaGj1jFD3qYH4sY30hED1l2PzfDD1i032nW74tJL2mGX0gTvzfC8tLS33pXryYwAoKCjLXMxIAAAQy0lEQVR4nO1dCVfqPBOWrXsN2AJlKasIIiCbqHj53v//r74sLF3SNl1oweNzzj1XNE3zdCaTyZTMPDz84Q9/oOGpqfcLBb1ey3ogyeB52moVEVqtQT3rwcRHeUrYELSK1awHFBN1Kx1MSc96SLGgO/lARoWsBxUDLvlgRv2shxUZZRofyOg564FFxZTKByLrgUXEM11AUES9rIcWDW0vARUHWQ8tEp68BARFVM56cFHQ9CHUy3pwUaB78ikW79Jy930IVbIeXBQUfAi1sx5cFPw6Qr9uDv06K1f7bevQw8Bb5dIfTHe8mE++Vq/b5XK5g/+2n6uvyXwx7obog7p5wAJ6vNq4Kei+jNbLD4PnDUPTTNMECPB/TTPgL/nccjVZdNi6ii+gRrkcK7IyHh32kIlmgpwXANAgr9zrZBbcXdVjP9RkG82T3soPIdrR4hCd0avBGz5UbLRMyOp7Mg7os0/dsTLuwfXhsEQwHDyFZTN720isZM4wDWm/fvHtt0CJKTAuqtMTHYxQZnH8tpeMkGROktL43NpP+VwyYpWPnU9pyD6VRjs+Ipszp/3E2/g1izZKLcZQ46OdT6nUYrtuvIrH5sjJkF69Ve/xTKlV1Bts42o4+ZSGPYbLFktJi82GwJQ2c8/7VPXKYDBo6+zWSncRYhDRfMObCdFBAPzHiHnAQSi6+JSGAXZhvufj65qDkgGSouQWUGnoO/sWydMhlHLeihcCNRohn6D4eCldgw6mxO/8V6ZrEFpJSc4dFyXpNYwHS0cYlZtDvbguNCP2VGoxG4Xu9iqTxw7Ab4K8vAD0KSKiNhwlaqm9YUqTWITK7oWVOoW++VToIPA7xk0THRUXI0qjF5CUX8ACk49lwR108hQv4+1qtpoOIK1iEKrZ+VBM3DY9dTvB2MUw4E+Ds9YNS275jH/SVLcTTINho+6JZnGI8U6xB4sENglRAKRYE6nWfNTrtPVnlPL0sUB6i8PIA29SVnQg+EPifFbpmwMrjO+E+bxmywcy2ibLJ7wvCkxTM3CclOclAvyzgYOpIPR8NJYJ8vlk5wOAiVhIxubz8DUZzRez2Xjc6XS73U5nPJ7NFvPR5Gv1udMkxC0MsQQZHdj44EiouTm8zV9YXLDObD457EwUNWZjlZjWrYPnD+ayOTBH4K28XiarDVv82PhMhM9bAB+gGdLH62QWa4s5Gx0+pEBR8XEcuxPmvuuPaUhgNY/l5J/Rma9ykuG71+Lj7ZAQXrz5AI3nt6OY20oHxqNvnvcRVDwvCKLj5b9BNmC1SISEE4tVzpuTFMdThdjQNcDkzVUCkSZPvKyBxz4f5GLNVeoChMLq15GNFYtX+isAM85yNKIYOJPfjOLHzNhuv+EpGzDjK3KHY5dBAAZ/iKnEoTA7UMQkRVaPD+CkY76lJJwzum/ASQloEQexsk8gwP8k96ojDEY/jrimGc0HWkg3QQdh/mGnxEcaitW5AkYuOzoI8x+b4vERfJODxcBoWnyXIy5GpmUGRFA6i8tjSqu0TQEVa8sbnPAR1f1JwoBfJuuuRUdnew48AS3ktZOTfDUjkfeDCWF+jqwb4XYS3eMUBPznTWjbBYeTkPhQenO0CKZ2S+IhWByFFMouHH0efntj4iH4JB5mGA/oG5kTEPMF2vVAgtJgw3zBDAnIBGl6oeEw/tBCme6tiaJgN6luJ6AXVWDP2HjGXyU6nizWUIt4xln0aV7n/UWygBMJ7JhajiUgZeuJsmHBA54prrHSom8JU8WM11hesnR5VtXMHGNDYnAXJv+7ZnwqWYyldXAj417kgzCTApss7sEeXBA83PvRN4J7G+8f/vCHP/zhdtG4z4OcdDw1Cy3xnnPBODGUBUX4TYRKaj7/R+iW8Ufo1nGrhGq10Od5CTCheCkfylXHvWuD6XQ6uJyxbuiPEI7voz+2IaaXz03UhiyI1UpJFkWRe+9bF8hyoQ/h+hp4WUfACa566KdhPp9XBo8YuuOcN1yihoKQf6+4zn/jTsi4WrL4z/H3sqgoing51V/7x3Gc6BhKWxYE4Z/lswjb9NDVRVGATxmNSxCnlmclc/AK0XnIF13H/cNPq4i6JFdyGOLU2lLPwyUK9awK8tCRcwBdIDbQyRpZyedlRwKwsgiv4iyE8GcHoQq6tXj53BfINbqo5C8QuEvfBXSFS5vQL1Vy/KVovRJfbTnpDYeq4oeEn5Yq27MOIEXloAhF/CiTI6Q/FET8CDmZO45OPB8Fwd2qQ3s3TfnSd5GDmoEvUhUM7iIhPFSV44qV9ruMn4ztDFALE8J3SIqQDj8L+iNsqoqlfr35OD2qj3iefFgCon0utlEjmShmYTAYTPHzLx2PR5/F+YyGIOQf8WHpWgEJS7Am+UJdcw/vCtJWkRNdcygKIQ5NZiSm83EWLC34tE9N6rJDjSA4bAMsv6DqZY2DDORLsyqaS6LlGBAipEBpq+KgXnMdEY9MKI8mpCWxUxMzuqwqWJ84ay9Y42TrAxXylHUIC8D6JMrwOjVvb5Avqgrt7FYcQrCZbSx1zEg+mTpsFuSepcFUsQ+MTgg9GMV+Hh3dTr6ICBNS1SH9/H4kQo+YkOJIeTJFrbiTBuGObU3cCkYjhGyY6Nj0CbaeiIF0tkmAkLPLJ/FilU/3tSxFeFbZlyYKITQe55PC1kS2ExK80phFJ+S6Ldapy5CJWdBtf3XoEoUQXhF6jo7R/eTzjBmqPgKKQch124c6+vVF2VXVthRxzjlFJYQ0TnYOFnV8GSNZvTz4xCDkui3Rucss6WOzcHqwRGD2C9yEGvhRNat2oJ4u7WjzNwlCotvFtrswuKvzx4HiWpcohJCJhveX7RBs/WJC0wcPJEroXbWtnHj2Hpfahuz2HCiE8FpFxYVC3nXV1QjhNfyiDGQlJXOqx1ktoCehHudJ6PygUiTUUuy+TV49E8Trv3OD5CZEFgSZAjELQngHatFubBZwu4ZIu8JNSCdXUBGDkBCRkJK3+wKXp9PjHH6pFyHOficawhF6kvNOB+Xo97sIuZJO1Rx9EUXDMwf9ILs20x5zyHPRjESIoxjFgUJbh1zOrns0zaO7g22c4mxPIVSVnc8kLqEHsulydKFSCLmm+NENtv0KuSlQgdGqShkDxVOgO1VxCJVU1/x4xovDxTskhNR3R1dk+tmFi8wCdOCQH0dRJHyB3cscUHa68Qjh+WJ/+u+KQ2pH4+pIJkEbC/aG5CePxy7mXaYC7xMVeqKXaITwRFCtilPAw3cTyis2OfbwUJxiQywV7P5TcmkMVXckBWuI4OnZhCfUIFvpy/MsiHgKWW98ImTNrkc2rC5lweqqOB7RCXi/4TB+VdwP55P6PCQhsvHMCyUSHqqXODgJVBohJa+eVfOpTcbh3nYNSSCSGvHtyVgb7JOrgGesYE0A1agXLW0CCLnsZI0EvFQ53yq+C7IKBYHDFE5CJOyTb/eadX0gk6dAyU3XPwa4qKkSBXKnYqEwHZ71d8Ad799+bNbrPb39Dr1vywjDEiKTAYtAIfHLGt6lWJYRsrA23rHZ5WTuGGjkaLn28EpN8RIwdOJcK4KgWBgPyG9xCJPjcPjUujL6E6pSPAOdBFkJODRRBIrZhqa9aHX2FZG+zaeFHM9onb1r635RF4W8HYpla+hP6Jnm6jSHMhYOCqTjP8nwUf3nJvTwqJCGqiKIXuVnkCPo2jicMSXRflX5Zw3p1gbiKbyMyHCiNaEN2v55vzu3xpstqA+Goigqp+SVdYgehRDUT9RQHhZ1T/8L2UiazT6i2i5xglIa6HZft6YXBRFDbbV7tgmId+WetyNeDPV+3ok4vbxtr7bOtYYRT+VaLXQGYxzgDHBvXQhDCMV+HMGeqwJPWTm4nQ0hCCEnIaKAogEJyDuE4gF2Qth/8JlBiYPsbBjTWNuvYiGE/RiFMVtvEmhgPzq0RrASIkGpsDM0BqpDvOiF1ghGQn3ygiW1YmLVKfYIAvaHNDARqr4TLzOlkkHNoSIrZB0O/60JBkLNFnlDLjg3SNdC9fQSuRQh+T4Dob7s7a9eBTW88eKcETg2MBAi7/XFFGu3oPBq1LoQ+j/oY/3nr6pDVZWHYdeDOOjVq4xZ0yloIPg3qfwrpVpG4+oo/6Zv+2aOW8mdwIrA8c7v64TROPi8erg8BRmjywcf8P6KkpElI3Rzr8GNOhK4Fxl19/9jySjwaWj3waj7YTAdBn+RQKz8yWmhw5xefGmCOzg9PTMA+GFruuBzuZtN33HCXAI55koKG3DzGSJQbmkAWFsjEcVLrX5t4MoGIUpd7FBWFvNmj7mTVPMgx34FyfQFWA73Z4AJSb4UKt/XluQJM/a3tyJ1liRPUYi0PhBj/pS67NayrYxOuXelcF70+pS9zNjf0iILxXPM9WWGzfl+zm0LpMPNmLu3S8o8KawLPb/kbNW028iCsfi5JDU0wi/820v+QMDvs7fgs6UlkyZzFikLOta0uoBfZruTHX/aSmxFyulsTxRsStvsrMP4YK8YFjFd8NaeIBpSykZK41dHAbRwS9AFXWeSXpP3KY14LSy2rnpuLPmW6H25sznzwKco5xUwopR2jJZYF2Ptzh8ODP4zLc0brwxKDnGmDF9e2NHyrJt87u36Pl53tKGWEQUfsXqll5cAhrSbXDPa1Z1vPWq8gphxw5lXlQSoesvA+srR0B19G57lH2LXSRh5130wDX7/lfR8mk12vE8xiwS8/y+/SiO4lgVLdW8mjHERbr9yI0YSkY6g2kOoDsz2bRHTmr9MXoPqjEADl0zFnm1wtR5Eav8apbgNLlu/2vEs5W3MiB6CC0um8ne4ZA9YriaLMZu0uuPFaL3NMRcgMmMZbBs2zAX9gKmhKlfG5nv1hspDjTsOcp3x7GU+mqw+Nxpqp7FXejfjFRmxYxe2RCE4FfBCpbuQNv1gCZJCXqiMV+gqXuZPoj5XaEZ2egRxujA/EvYhl9eu+esPbZO4T/ydJSO2F0EhkWGtQj7pOoUEk6yqY14tJL1Iodi0G9fMLZ1FhVlTu2pwJsWS0wRXTzU/SVXtgBS9vhUrxh/p2W/NTCV8sU7J2gEprTonLz9pCCnVMjRrj7J7ySHttzjj5VWNA+D3qYed5+B6emeEeGOfIN7461DSMnv73v3yj9FEo8OvMvzCXndNiz7HonPI+JsE3YmZmHkAhrG+ha9TzncSY91oX5j8x228nIaYrYyYC5Np8K9pGOqnarPeqzerwcdW0OuCqJwgm2UaNV5r9X6lUkCA//UCOXVHW9/6ynQAzCaNmVPTCZkTKjrD6aLFiqG6t5WMBA7zdFycervgRKXHcmFnvtrj6K4fLYDjxj+HhItwe6PRr7j4QPQZj7Th+LuJQqSaaZ5DjOgHE0VUed5EZetTdD6faGwwwhzS687mk6/DcrfPoYA35Jbb75av68n8JfXFxpNPoRD95FSG6PsQipdBOhs0qfPnZBlSPMydEJ78+EBGETOEZ4dHXz6Fwr2dD2z4CwiK6M7sQjOAT6GQ5onUBOBn4ghSO3KfDII0DiLrIYZCLZhQJcIZ+OxQZSB0VweHnxkI+SbluzU8B0+hOyP02yT06+YQi5W7L2/ut61DD3ognzvzTgMn0X3ZhAff/fc9atzDQz1AQHfmbD8Eiijr4YWH7yxq39UidMSjNyO26OnNwdt039nm7gydLqPKvfLx0Lo71TeCasFJqVK4R3tgQdNGqXJvwR4aqnqhQlBwFiy8WzyVUTLe+9ov/DL8H4KsbASeZU8QAAAAAElFTkSuQmCC"
+        }
+    ]

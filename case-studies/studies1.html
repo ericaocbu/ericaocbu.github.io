@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc;
+        }
+        .container {
+            max-width: 80rem;
+            margin: auto;
+            padding: 2rem;
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #1a202c;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #2d3748;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .section-header {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #2d3748;
+            border-bottom: 4px solid #4a5568;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 2rem;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background-color: #a0aec0;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2.5rem;
+            padding-left: 1.5rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0.5rem;
+            width: 16px;
+            height: 16px;
+            background-color: #4a5568;
+            border-radius: 50%;
+        }
+        .persona-card {
+            background-color: #fff5e1;
+            border: 1px solid #f6ad55;
+        }
+        .user-flow-item {
+            background-color: #e2e8f0;
+            color: #2d3748;
+            border-radius: 9999px;
+            padding: 0.75rem 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            margin: 5px;
+        }
+        .flow-arrow {
+            display: inline-block;
+            margin: 0 1rem;
+            color: #a0aec0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Hero Section -->
+        <nav class="bg-gray-900 text-white py-5 px-5">
+            <div class="flex justify-end space-x-6">
+                <div class="Home"><a href="../index.html" class="hover:underline">Home</a></div>
+                <div class="projects"><a href="../projects.html" class="hover:underline">Projects</a></div>
+            </div>
+        </nav>
+
+    <header class="bg-gray-400 py-12 px-6">
+        <div class="container text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">Detecting Early Indicators of a Mental Health Crisis</h1>
+        </div>
+    </header>
+
+    <main class="container py-8">
+
+        <!-- Summary Section -->
+        <section id="summary" class="mb-12">
+            <h2 class="section-header">Summary</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-2 text-indigo-600">Project Goal</h3>
+                    <p class="text-gray-600">To create a moderator-facing tool that visualizes mental health crisis indicators from Reddit posts, making complex text analytics more interpretable and actionable. The dashboard focuses on accessibility, clarity, and efficiency in identifying users at risk.</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-2 text-indigo-600">My Role</h3>
+                    <p class="text-gray-600">Lead UX/UI Designer and Developer. Responsible for user research with moderators, designing data visualizations, creating wireframes and interactive prototypes, and iterating through usability testing.</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-2 text-indigo-600">Duration</h3>
+                    <p class="text-gray-600">5 weeks (June 2025 - July 2025)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="mb-12">
+            <h2 class="section-header">Project Timeline</h2>
+            <div class="card timeline">
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg text-green-500">Week 1: Research & Strategy</h3>
+                    <p class="text-gray-600">Conducted research on moderator workflows and pain points. Reviewed existing mental health monitoring tools and competitive dashboards. Defined project scope and success metrics with emphasis on early detection.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg text-blue-500">Week 2: Ideation & Brainstorming</h3>
+                    <p class="text-gray-600">Developed user personas (focused on moderators). Mapped user journeys to capture moderator needs and decision-making processes. Sketched initial dashboard layouts and explored visualization types (heatmaps, sentiment timelines, severity bars).</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg text-purple-500">Week 3: Style Guide & UI Design</h3>
+                    <p class="text-gray-600">Established visual identity with emphasis on clarity and accessibility. Defined typography, color palette (including accessibility-compliant contrasts), and chart styles. Designed initial high-fidelity dashboard screens.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg text-orange-500">Week 4: Usability Testing</h3>
+                    <p class="text-gray-600">Conducted usability sessions with sample moderator personas. Gathered feedback on dashboard clarity, ease of interpretation, and navigation flow. Iterated on data visualization components for better readability.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg text-red-500">Week 5: Finalization</h3>
+                    <p class="text-gray-600">Refined dashboard design based on feedback. Documented insights and finalized assets for developer handoff. Delivered an interactive prototype showcasing end-to-end moderator workflows.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scope of Work Section -->
+        <section id="scope" class="mb-12">
+            <h2 class="section-header">Scope of Work</h2>
+            <div class="card grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="p-4 rounded-lg bg-red-100 border border-red-200">
+                    <h3 class="text-lg font-semibold text-red-700 mb-2">Business Analysis</h3>
+                    <p class="text-red-600">Defined problem statement and measurable success outcomes (faster detection, reduced moderator fatigue).</p>
+                </div>
+                <div class="p-4 rounded-lg bg-blue-100 border border-blue-200">
+                    <h3 class="text-lg font-semibold text-blue-700 mb-2">User Research</h3>
+                    <p class="text-blue-600">Conducted interviews and surveys to understand moderator challenges. Identified gaps in existing text analytics tools.</p>
+                </div>
+                <div class="p-4 rounded-lg bg-green-100 border border-green-200">
+                    <h3 class="text-lg font-semibold text-green-700 mb-2">Design & Prototyping</h3>
+                    <p class="text-green-600">Created wireframes, high-fidelity mockups, and an interactive prototype. Designed custom visualizations for sentiment and linguistic markers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Process Section -->
+        <section id="design-process" class="mb-12">
+            <h2 class="section-header">Design Process</h2>
+            <div class="card grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-4 rounded-lg bg-orange-100 border border-orange-200">
+                    <h3 class="text-xl font-semibold text-orange-700 mb-2">Research</h3>
+                    <ul class="list-disc pl-6 text-orange-600">
+                        <li>Defined goals around early crisis detection.</li>
+                        <li>Conducted analysis of existing moderation tools.</li>
+                        <li>Outlined project plan and organized tasks.</li>
+                    </ul>
+                </div>
+                <div class="p-4 rounded-lg bg-purple-100 border border-purple-200">
+                    <h3 class="text-xl font-semibold text-purple-700 mb-2">UX & UI Design</h3>
+                    <ul class="list-disc pl-6 text-purple-600">
+                        <li>User Personas & Feedback</li>
+                        <li>User Stories & Flows</li>
+                        <li>Style Guide & App Interface</li>
+                    </ul>
+                </div>
+                <div class="p-4 rounded-lg bg-lime-100 border border-lime-200">
+                    <h3 class="text-xl font-semibold text-lime-700 mb-2">User Testing</h3>
+                    <ul class="list-disc pl-6 text-lime-600">
+                        <li>Set up KPIs (interpretation speed, accuracy of severity recognition)</li>
+                        <li>Interviews & Feedback</li>
+                        <li>User Review & Final Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem + Solution Section -->
+        <section id="problem-solution" class="mb-12">
+            <h2 class="section-header">Problem + Solution</h2>
+            <div class="card p-6 mb-6 bg-red-50 border-l-4 border-red-500">
+                <h3 class="text-xl font-semibold text-red-700 mb-2">The Problem</h3>
+                <p class="text-gray-700">Moderators often struggle to interpret complex mental health signals in user-generated content. Existing tools can be overwhelming, overly technical, or lack the ability to synthesize multiple signals, delaying interventions and increasing moderator fatigue.</p>
+            </div>
+            <div class="card p-6 bg-green-50 border-l-4 border-green-500">
+                <h3 class="text-xl font-semibold text-green-700 mb-2">The Solution</h3>
+                <p class="text-gray-700">The dashboard provides:</p>
+                <ul class="list-disc pl-6 mt-2 text-gray-700">
+                    <li>Integrated model-based and rule-based analysis for holistic insights.</li>
+                    <li>Sentiment and linguistic trend visualization to highlight risk patterns.</li>
+                    <li>Severity classification levels that are intuitive and actionable.</li>
+                    <li>Clear, accessible design that supports rapid interpretation.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- User Personas Section -->
+        <section id="user-personas" class="mb-12">
+            <h2 class="section-header">User Personas</h2>
+            <p class="mb-6 text-gray-600">Based on user research, our distinct moderator personas were created:</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card persona-card">
+                    <h4 class="font-semibold text-lg text-orange-700">Maya, 23</h4>
+                    <p class="text-sm text-gray-600 mb-2">Volunteer Moderator</p>
+                    <p class="text-gray-700"><span class="font-semibold">Motivation:</span> Wants a simple, quick way to spot high-risk posts.</p>
+                    <p class="text-gray-700 mt-1"><span class="font-semibold">Expectations:</span> Clear severity flags and easy-to-interpret visuals.</p>
+                </div>
+                <div class="card persona-card">
+                    <h4 class="font-semibold text-lg text-orange-700">David, 34</h4>
+                    <p class="text-sm text-gray-600 mb-2">Experienced Moderator</p>
+                    <p class="text-gray-700"><span class="font-semibold">Motivation:</span> Balance efficiency with accuracy in decision-making.</p>
+                    <p class="text-gray-700 mt-1"><span class="font-semibold">Expectations:</span> Deeper insights into sentiment and language trends for context.</p>
+                </div>
+                <div class="card persona-card">
+                    <h4 class="font-semibold text-lg text-orange-700">Priya, 29</h4>
+                    <p class="text-sm text-gray-600 mb-2">Mental Health Advocate</p>
+                    <p class="text-gray-700"><span class="font-semibold">Motivation:</span> Ensure vulnerable users aren't overlooked.</p>
+                    <p class="text-gray-700 mt-1"><span class="font-semibold">Expectations:</span> A dashboard that highlights subtle crisis signals, not just extremes.</p>
+                </div>
+                <div class="card persona-card">
+                    <h4 class="font-semibold text-lg text-orange-700">Alex, 24</h4>
+                    <p class="text-sm text-gray-600 mb-2">Community Manager</p>
+                    <p class="text-gray-700"><span class="font-semibold">Motivation:</span> Streamline team efforts across multiple subreddits.</p>
+                    <p class="text-gray-700 mt-1"><span class="font-semibold">Expectations:</span> Tools that support prioritization and workload management.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- User Flow Section -->
+        <section id="user-flow" class="mb-12">
+            <h2 class="section-header">User Flow</h2>
+            <p class="mb-6 text-gray-600">The moderator flow begins with onboarding and proceeds to real-time monitoring and interpretation of severity insights: </p>
+            <div class="card flex flex-wrap items-center justify-center text-center">
+                <div class="user-flow-item">Sign In</div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="user-flow-item">Dashboard Overview</div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="user-flow-item">Severity Distribution</div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="user-flow-item">Linguistic Pattern Analysis</div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="user-flow-item">Community Overview</div>
+                <div class="flow-arrow hidden md:inline">&rarr;</div>
+                <div class="user-flow-item mt-4 md:mt-0">Suggested Moderator Actions</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
